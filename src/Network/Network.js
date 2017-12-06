@@ -60,7 +60,7 @@ export default class Network extends React.Component {
     const links = data.links;
     return (
       <div className="container">
-      <p class="text-center info">To get preliminary insights about the characters we created the graph representing the network.
+      <p className="text-center info">To get preliminary insights about the characters we created the graph representing the network.
       The characters are represented as nodes. We made a basic analysis and got the following statistics about the network:
       </p>
       <div className="row rowNetwork">

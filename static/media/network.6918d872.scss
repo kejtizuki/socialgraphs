@@ -1,0 +1,183 @@
+$grey: #474747;
+$blue: #099499;
+$lightGrey: #dddddd;
+
+$group1: #a065a5;
+$group2: #D1AA9B;
+$group3: #FFC1BD;
+$group4: #E89DC0;
+$group0: #FBC3FF;
+
+.link {
+  opacity: 0.05 !important;
+  fill: black;
+}
+
+.node {
+  fill: $blue;
+  stroke: none;
+}
+
+.group1 {
+  fill: $group1;
+  &:hover {
+    fill: $group1;
+  }
+}
+
+.group0 {
+  fill: $group0;
+  &:hover {
+    fill: $group0;
+  }
+}
+
+.group2 {
+  fill: $group2;
+  &:hover {
+    fill: $group2;
+  }
+}
+.group3 {
+  fill: $group3;
+  &:hover {
+    fill: $group3;
+  }
+}
+.group4 {
+  fill: $group1;
+  &:hover {
+    fill: $group4;
+  }
+}
+
+.text-center {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.info {
+  font-size: 12px;
+}
+
+ul {
+  list-style: none;
+}
+.container {
+  margin: 30px 100px 0px 100px;
+  padding-top: 100px;
+}
+
+.col-md-6 {
+  width: 50%;
+  float: left;
+}
+.col-md-4 {
+  width: 40%;
+  float: left;
+}
+.col-md-8 {
+  width: 60%;
+  float: left;
+}
+
+.threeCols {
+  width: 33%;
+  float: left;
+  img {
+    width: 360px;
+  }
+}
+
+.rowNetwork {
+  width: 100%;
+  // background-color: #eaeaea;
+  display: inline-block;
+  color: $grey;
+  &:after {
+    content: "";
+    clear: both;
+  }
+  .networkInfo {
+    padding: 30px;
+    width: 100%;
+    &:after {
+      clear: both;
+    }
+    .oneInformation{
+      width: 25%;
+      float: left;
+      margin: 10px 0px 20px 0px;
+      .elipse {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        text-align: center;
+        background-color: $blue;
+        color: white;
+        line-height: 100px;
+        font-size: 30px;
+        margin: 0 auto;
+      }
+    }
+  }
+}
+
+.labelInfo {
+  color: $grey;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 5px;
+  clear: left;
+}
+
+.btn {
+  border-radius: 30px;
+  padding: 12px;
+  color: $blue;
+  border: 1px solid $blue;
+  font-size: 16px;
+  width: 200px;
+  margin: 0px 10px 0px 10px;
+}
+
+.btnLong {
+  border-radius: 30px;
+  padding: 12px;
+  color: $blue;
+  border: 1px solid $blue;
+  font-size: 16px;
+  width: 300px;
+  margin: 0px 10px 0px 10px;
+}
+
+.hvr-fade {
+  position: relative;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  // overflow: hidden;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: color, background-color;
+  transition-property: color, background-color;
+  &:hover {
+    background-color: $blue;
+    color: white;
+  }
+}
+
+.btnActive {
+  background-color: $blue;
+  color: white;
+}
+
+.degree {
+  margin-top: 20px;
+}
+
+.basicAnalysis {
+  margin: 60px 0px 0px 0px;
+  text-align: center;
+}

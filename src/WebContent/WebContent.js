@@ -5,7 +5,7 @@ import Dataset from '../Dataset/Dataset';
 import { slide as Menu } from 'react-burger-menu';
 import { BrowserRouter } from 'react-router-dom'
 import { Switch, Route } from 'react-router-dom'
-require ('../App.scss');
+require ('../App.css');
 
 export default class WebContent extends React.Component {
   render() {

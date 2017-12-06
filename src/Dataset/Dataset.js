@@ -1,5 +1,5 @@
 import React from "react";
-require ('./dataset.scss');
+require ('./dataset.css');
 
 export default class Dataset extends React.Component {
   render() {

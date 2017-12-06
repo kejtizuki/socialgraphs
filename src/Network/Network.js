@@ -2,7 +2,7 @@ import React from "react";
 import {InteractiveForceGraph, ForceGraphNode, ForceGraphLink} from 'react-vis-force';
 import data from './newData.json';
 import DegreeInfo from '../DegreeInfo/DegreeInfo';
-require ('./network.scss');
+require ('./network.css');
 
 
 export default class Network extends React.Component {

@@ -1,0 +1,25 @@
+.Header-container {
+  position: fixed;
+  z-index: 4;
+  border-bottom: 1px solid #474747;
+  height: 100px;
+  width: 95%;
+  background-color: #3d4444;
+  top: 0;
+  padding-right: 100px; }
+  .Header-container h3 {
+    margin: 20px 0px 0px 0px; }
+  .Header-container p {
+    margin: 0; }
+  .Header-container .App-header {
+    float: right;
+    padding: 0px 100px 0px 100px;
+    padding: 10px;
+    width: auto;
+    color: white; }
+    .Header-container .App-header h2 {
+      margin: 0; }
+    .Header-container .App-header .Group-Name {
+      padding: 0;
+      margin: 0;
+      float: right; }

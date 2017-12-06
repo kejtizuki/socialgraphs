@@ -5,7 +5,7 @@ import Dataset from '../Dataset/Dataset';
 import { BrowserRouter } from 'react-router-dom'
 import { Switch, Route } from 'react-router-dom'
 import ToggleDisplay from 'react-toggle-display';
-require ('./degreeInfo.scss');
+require ('./degreeInfo.css');
 
 export default class DegreeInfo extends React.Component {
 

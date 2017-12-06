@@ -1,0 +1,10 @@
+.degreeInfo {
+  margin: 40px 0px 0px 0px;
+  color: #474747;
+  text-align: center; }
+  .degreeInfo #degreesHeader {
+    margin-bottom: 5px; }
+  .degreeInfo .additionalInfo {
+    font-size: 11px;
+    display: inline-block;
+    margin-bottom: 30px; }

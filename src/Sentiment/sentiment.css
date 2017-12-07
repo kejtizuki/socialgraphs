@@ -1,0 +1,14 @@
+.myTable {
+  text-align: center;
+  margin: 0 auto;
+  width: 20%;
+  margin-top: 20px; }
+  .myTable table {
+    text-align: center; }
+    .myTable table th, .myTable table td {
+      padding: 5px 12px 5px 12px;
+      text-align: center; }
+
+#head {
+  border-bottom: 2px solid #474747;
+  color: #c1bf38; }

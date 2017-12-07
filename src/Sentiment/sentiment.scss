@@ -1,0 +1,21 @@
+$grey: #474747;
+$yellow: #c1bf38;
+
+.myTable {
+  text-align: center;
+  margin: 0 auto;
+  width: 20%;
+  margin-top: 20px;
+  table {
+    text-align: center;
+    th, td {
+      padding: 5px 12px 5px 12px;
+      text-align: center;
+    }
+  }
+
+}
+#head {
+  border-bottom: 2px solid $grey;
+  color: $yellow;
+}

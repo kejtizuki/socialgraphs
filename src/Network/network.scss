@@ -1,7 +1,7 @@
 $grey: #474747;
 $blue: #099499;
 $lightGrey: #dddddd;
-
+$yellow: #c1bf38;
 $group1: #a065a5;
 $group2: #D1AA9B;
 $group3: #FFC1BD;
@@ -11,6 +11,11 @@ $group0: #FBC3FF;
 .link {
   opacity: 0.05 !important;
   fill: black;
+}
+
+.graph {
+  width: 900px;
+  height: auto;
 }
 
 .node {
@@ -64,8 +69,13 @@ ul {
   list-style: none;
 }
 .container {
-  margin: 30px 100px 0px 100px;
-  padding-top: 100px;
+  margin: 0px 100px 0px 100px;
+  padding-top: 20px;
+}
+
+.containerTop {
+  margin: 0px 100px 0px 100px;
+  padding-top: 150px;
 }
 
 .col-md-6 {
@@ -82,8 +92,9 @@ ul {
 }
 
 .threeCols {
-  width: 33%;
+  width: 32%;
   float: left;
+  margin: 0.5%;
   img {
     width: 360px;
   }
@@ -105,7 +116,7 @@ ul {
       clear: both;
     }
     .oneInformation{
-      width: 25%;
+      width: 20%;
       float: left;
       margin: 10px 0px 20px 0px;
       .elipse {
@@ -121,6 +132,63 @@ ul {
       }
     }
   }
+  .networkInfoBooks {
+    padding: 30px;
+    width: 100%;
+    &:after {
+      clear: both;
+    }
+    .oneInformationBooks{
+      width: 20%;
+      float: left;
+      margin: 10px 0px 20px 0px;
+      .elipseBooks {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        text-align: center;
+        background-color: $yellow !important;
+        color: white;
+        line-height: 100px;
+        font-size: 30px;
+        margin: 0 auto;
+      }
+    }
+  }
+}
+
+@mixin tabLink($color) {
+  border: none;
+  border-bottom: 2px solid $color;
+  box-shadow: none;
+  padding: 12px;
+  border-radius: 0;
+  margin: 0px 5px 0px 5px;
+  font-size: 16px;
+  &:hover, &:focus {
+    outline: 0;
+    cursor: pointer;
+  }
+}
+
+.tabLinkSeries {
+  @include tabLink($blue);
+}
+
+.tabLinkBooks {
+  @include tabLink($yellow);
+}
+
+@mixin tabLinkActive($color) {
+  color: $color;
+}
+
+.tabLinkActiveSeries {
+  @include tabLinkActive($blue);
+}
+
+.tabLinkActiveBooks {
+  @include tabLinkActive($yellow);
 }
 
 .labelInfo {
@@ -139,6 +207,22 @@ ul {
   font-size: 16px;
   width: 200px;
   margin: 0px 10px 0px 10px;
+  &:focus, &:active {
+    outline: 0 !important;
+  }
+}
+
+.btnBooks {
+  border-radius: 30px;
+  padding: 12px;
+  color: $yellow;
+  border: 1px solid $yellow;
+  font-size: 16px;
+  width: 200px;
+  margin: 0px 10px 0px 10px;
+  &:focus, &:active {
+    outline: 0 !important;
+  }
 }
 
 .btnLong {
@@ -146,6 +230,16 @@ ul {
   padding: 12px;
   color: $blue;
   border: 1px solid $blue;
+  font-size: 16px;
+  width: 300px;
+  margin: 0px 10px 0px 10px;
+}
+
+.btnLongBooks {
+  border-radius: 30px;
+  padding: 12px;
+  color: $yellow;
+  border: 1px solid $yellow;
   font-size: 16px;
   width: 300px;
   margin: 0px 10px 0px 10px;
@@ -166,10 +260,44 @@ ul {
     background-color: $blue;
     color: white;
   }
+  &:focus {
+    outline: 0;
+  }
+  &:active {
+    outline: 0 !important;
+  }
+}
+
+.hvr-fadeBooks {
+  position: relative;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  // overflow: hidden;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: color, background-color;
+  transition-property: color, background-color;
+  &:hover {
+    background-color: $yellow;
+    color: white;
+  }
+  &:focus {
+    outline: 0;
+  }
+  &:active {
+    outline: 0 !important;
+  }
 }
 
 .btnActive {
   background-color: $blue;
+  color: white;
+}
+
+.btnActiveBooks {
+  background-color: $yellow;
   color: white;
 }
 

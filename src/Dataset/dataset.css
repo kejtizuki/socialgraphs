@@ -1,2 +1,41 @@
+.smallIcon {
+  width: 30px; }
+
+#book {
+  position: relative;
+  top: 5px; }
+
+#bookLink {
+  color: #c1bf38; }
+  #bookLink:visited {
+    color: #c1bf38; }
+
+.headerData {
+  padding: 10px 0px 30px 0px; }
+
 .dataset {
-  background-color: red; }
+  background-color: white; }
+  .dataset .infoData {
+    margin: 20px 0px 20px 0px; }
+  .dataset .rowDataSources {
+    white-space: nowrap;
+    margin: 0 auto; }
+    .dataset .rowDataSources .dataSource {
+      float: left;
+      width: 48%;
+      margin: 2% 0.5% 1% 0.5%;
+      overflow: hidden;
+      box-sizing: border-box;
+      padding: 40px;
+      text-align: center;
+      border-radius: 10px;
+      display: inline-block;
+      white-space: normal;
+      background-color: #f2f2f2; }
+      .dataset .rowDataSources .dataSource h4 {
+        margin: 0; }
+
+a {
+  color: #099499; }
+  a:visited {
+    color: #099499; }

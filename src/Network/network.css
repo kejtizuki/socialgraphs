@@ -2,6 +2,10 @@
   opacity: 0.05 !important;
   fill: black; }
 
+.graph {
+  width: 900px;
+  height: auto; }
+
 .node {
   fill: #099499;
   stroke: none; }
@@ -42,8 +46,12 @@ ul {
   list-style: none; }
 
 .container {
-  margin: 30px 100px 0px 100px;
-  padding-top: 100px; }
+  margin: 0px 100px 0px 100px;
+  padding-top: 20px; }
+
+.containerTop {
+  margin: 0px 100px 0px 100px;
+  padding-top: 150px; }
 
 .col-md-6 {
   width: 50%;
@@ -58,8 +66,9 @@ ul {
   float: left; }
 
 .threeCols {
-  width: 33%;
-  float: left; }
+  width: 32%;
+  float: left;
+  margin: 0.5%; }
   .threeCols img {
     width: 360px; }
 
@@ -76,7 +85,7 @@ ul {
     .rowNetwork .networkInfo:after {
       clear: both; }
     .rowNetwork .networkInfo .oneInformation {
-      width: 25%;
+      width: 20%;
       float: left;
       margin: 10px 0px 20px 0px; }
       .rowNetwork .networkInfo .oneInformation .elipse {
@@ -89,6 +98,55 @@ ul {
         line-height: 100px;
         font-size: 30px;
         margin: 0 auto; }
+  .rowNetwork .networkInfoBooks {
+    padding: 30px;
+    width: 100%; }
+    .rowNetwork .networkInfoBooks:after {
+      clear: both; }
+    .rowNetwork .networkInfoBooks .oneInformationBooks {
+      width: 20%;
+      float: left;
+      margin: 10px 0px 20px 0px; }
+      .rowNetwork .networkInfoBooks .oneInformationBooks .elipseBooks {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        text-align: center;
+        background-color: #c1bf38 !important;
+        color: white;
+        line-height: 100px;
+        font-size: 30px;
+        margin: 0 auto; }
+
+.tabLinkSeries {
+  border: none;
+  border-bottom: 2px solid #099499;
+  box-shadow: none;
+  padding: 12px;
+  border-radius: 0;
+  margin: 0px 5px 0px 5px;
+  font-size: 16px; }
+  .tabLinkSeries:hover, .tabLinkSeries:focus {
+    outline: 0;
+    cursor: pointer; }
+
+.tabLinkBooks {
+  border: none;
+  border-bottom: 2px solid #c1bf38;
+  box-shadow: none;
+  padding: 12px;
+  border-radius: 0;
+  margin: 0px 5px 0px 5px;
+  font-size: 16px; }
+  .tabLinkBooks:hover, .tabLinkBooks:focus {
+    outline: 0;
+    cursor: pointer; }
+
+.tabLinkActiveSeries {
+  color: #099499; }
+
+.tabLinkActiveBooks {
+  color: #c1bf38; }
 
 .labelInfo {
   color: #474747;
@@ -105,12 +163,34 @@ ul {
   font-size: 16px;
   width: 200px;
   margin: 0px 10px 0px 10px; }
+  .btn:focus, .btn:active {
+    outline: 0 !important; }
+
+.btnBooks {
+  border-radius: 30px;
+  padding: 12px;
+  color: #c1bf38;
+  border: 1px solid #c1bf38;
+  font-size: 16px;
+  width: 200px;
+  margin: 0px 10px 0px 10px; }
+  .btnBooks:focus, .btnBooks:active {
+    outline: 0 !important; }
 
 .btnLong {
   border-radius: 30px;
   padding: 12px;
   color: #099499;
   border: 1px solid #099499;
+  font-size: 16px;
+  width: 300px;
+  margin: 0px 10px 0px 10px; }
+
+.btnLongBooks {
+  border-radius: 30px;
+  padding: 12px;
+  color: #c1bf38;
+  border: 1px solid #c1bf38;
   font-size: 16px;
   width: 300px;
   margin: 0px 10px 0px 10px; }
@@ -128,9 +208,35 @@ ul {
   .hvr-fade:hover {
     background-color: #099499;
     color: white; }
+  .hvr-fade:focus {
+    outline: 0; }
+  .hvr-fade:active {
+    outline: 0 !important; }
+
+.hvr-fadeBooks {
+  position: relative;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: color, background-color;
+  transition-property: color, background-color; }
+  .hvr-fadeBooks:hover {
+    background-color: #c1bf38;
+    color: white; }
+  .hvr-fadeBooks:focus {
+    outline: 0; }
+  .hvr-fadeBooks:active {
+    outline: 0 !important; }
 
 .btnActive {
   background-color: #099499;
+  color: white; }
+
+.btnActiveBooks {
+  background-color: #c1bf38;
   color: white; }
 
 .degree {

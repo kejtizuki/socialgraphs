@@ -18,8 +18,8 @@ export default class WebContent extends React.Component {
         </Menu>
         <Header />
         <Switch>
-        <Route exact path='/dataset' component={Dataset}/>
-        <Route path='/network' component={Network}/>
+        <Route exact path={process.env.PUBLIC_URL + '/dataset'} component={Dataset}/>
+        <Route path={process.env.PUBLIC_URL + '/network'} component={Network}/>
         </Switch>
       </div>
     );

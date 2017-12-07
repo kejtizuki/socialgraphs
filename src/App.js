@@ -5,7 +5,7 @@ import Network from './Network/Network';
 import Dataset from './Dataset/Dataset';
 import WebContent from './WebContent/WebContent';
 import { slide as Menu } from 'react-burger-menu';
-import { BrowserRouter } from 'react-router-dom'
+import { HashRouter } from 'react-router-dom'
 import { Switch, Route } from 'react-router-dom'
 
 
@@ -27,11 +27,11 @@ class App extends Component {
 
   render() {
     return (
-      <BrowserRouter>
+      <HashRouter>
         <div className="App">
           <WebContent />
         </div>
-      </BrowserRouter>
+      </HashRouter>
 
     );
   }

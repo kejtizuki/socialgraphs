@@ -7,7 +7,7 @@ export default class Header extends React.Component {
       <div className="Header-container">
         <header className="App-header">
           <h3>Game of Thrones Social Graphs project</h3>
-          <p className="Group-Name">by Martin, Jacob and Kasia</p>
+          <p className="Group-Name">by Martin, Jacob and</p>
         </header>
       </div>
     );

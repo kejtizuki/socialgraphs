@@ -17,12 +17,14 @@ export default class Dataset extends React.Component {
         <div class="rowDataSources">
         <div className="col-md-6 dataSource">
           <h4><img src="film.png" className="smallIcon"/> Fandom wiki which focuse maily on TV show</h4>
+          <p>88Mb</p>
           <a href="http://gameofthrones.wikia.com">Fandom wiki</a>
           <br />
           <a href="http://gameofthrones.wikia.com/wiki/Game_of_Thrones_Wiki">Download</a>
         </div>
         <div className="col-md-6 dataSource">
           <h4><img src="book.png" className="smallIcon" id="book"/> Westeros wiki which focuse mainly on books</h4>
+          <p>40Mb</p>
           <a href="https://awoiaf.westeros.org" id="bookLink">Book wiki</a>
           <br />
           <a href="https://github.com/WikiTeam/wikiteam" id="bookLink">Download</a>

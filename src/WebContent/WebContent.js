@@ -6,7 +6,7 @@ import Sentiment from '../Sentiment/Sentiment';
 import Notebooks from '../Notebooks/Notebooks';
 import { slide as Menu } from 'react-burger-menu';
 import { BrowserRouter } from 'react-router-dom'
-import { Switch, Route, Link } from 'react-router-dom'
+import { Switch, Route, Link, Redirect} from 'react-router-dom'
 require ('../App.css');
 
 export default class WebContent extends React.Component {
@@ -21,6 +21,10 @@ export default class WebContent extends React.Component {
         </Menu>
         <Header />
         <Switch>
+        <Route exact path="/" render={() => (
+            <Redirect to="/network"/>
+          )
+        }/>
         <Route exact path='/about' component={Dataset}/>
         <Route path='/network' component={Network}/>
         <Route path='/sentiment' component={Sentiment}/>

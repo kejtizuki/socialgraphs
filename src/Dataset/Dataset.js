@@ -16,12 +16,16 @@ export default class Dataset extends React.Component {
         <div className="text-center">To get the data we used xml dumps and wiki API.</div>
         <div class="rowDataSources">
         <div className="col-md-6 dataSource">
-          <h4><img src="film.png" className="smallIcon"/> Data used to analyse series</h4>
-          <a href="http://gameofthrones.wikia.com/wiki/Special:Statistics">Fandom wiki</a>
+          <h4><img src="film.png" className="smallIcon"/> Fandom wiki which focuse maily on TV show</h4>
+          <a href="http://gameofthrones.wikia.com">Fandom wiki</a>
+          <br />
+          <a href="http://gameofthrones.wikia.com/wiki/Game_of_Thrones_Wiki">Download</a>
         </div>
         <div className="col-md-6 dataSource">
-          <h4><img src="book.png" className="smallIcon" id="book"/> Data used to analyse books</h4>
-          <a href="http://awoiaf.westeros.org/index.php/Main_Page" id="bookLink">Book wiki</a>
+          <h4><img src="book.png" className="smallIcon" id="book"/> Westeros wiki which focuse mainly on books</h4>
+          <a href="https://awoiaf.westeros.org" id="bookLink">Book wiki</a>
+          <br />
+          <a href="https://github.com/WikiTeam/wikiteam" id="bookLink">Download</a>
         </div>
         </div>
       </div>

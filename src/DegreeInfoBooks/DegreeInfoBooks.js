@@ -39,32 +39,31 @@ export default class DegreeInfoBooks extends React.Component {
         </div>
         <ToggleDisplay className="inDegree degree" show={this.state.showInDegree}>
         <ul>
-          <li>Jaime Lannister, 168)</li>
-          <li>Tyrion Lannister, 146</li>
-          <li>Stannis Baratheon, 135</li>
-          <li>Robb Stark, 123</li>
-          <li>Tywin Lannister, 122</li>
-          <li>Eddard Stark, 113)</li>
-          <li>Cersei Lannister, 103</li>
-          <li>on Snow, 100</li>
-          <li>Eddard_Stark, 67</li>
-          <li>Arya Stark, 87</li>
-          <li>Walder Frey, 78</li>
+          <li>Tyrion Lannister, 286</li>
+          <li>Jamie Lannister, 272</li>
+          <li>Stannis Baratheon, 264</li>
+          <li>John Snow, 220</li>
+          <li>Arya Stark, 211</li>
+          <li>Tywin Lannister, 209</li>
+          <li>Daennerys Targaryen, 208</li>
+          <li>Cersei Lannister, 204</li>
+          <li>Robb Stark, 107</li>
+          <li>Joeffrey Baratheon, 173</li>
         </ul>
         </ToggleDisplay>
 
         <ToggleDisplay className="outDegree degree" show={this.state.showOutDegree}>
         <ul>
-          <li>Jaime Lannister, 83)</li>
-          <li>Eddard Stark, 72</li>
-          <li>Tyrion Lannister, 69</li>
-          <li>Cersei Lannister, 69</li>
-          <li>Barristan Selmy, 68</li>
-          <li>Arya Stark, 67</li>
-          <li>Jon Snow, 53</li>
-          <li>Sandor Clegane, 50</li>
-          <li>Theon Greyjoy, 50</li>
-          <li>Tywin Lannister, 49</li>
+          <li>Jaime Lannister, 99</li>
+          <li>Barristan Selmy, 87</li>
+          <li>Cersei Lannister, 86</li>
+          <li>Tyrion Lannister, 84</li>
+          <li>Arya Stark, 83</li>
+          <li>Stannis Baratheon, 72</li>
+          <li>Robert I Baratheon, 71</li>
+          <li>Daennerys Targaryen, 70</li>
+          <li>Aegon III Targaryen, 68</li>
+          <li>Theon Greyjoy, 64</li>
         </ul>
         </ToggleDisplay>
       </div>

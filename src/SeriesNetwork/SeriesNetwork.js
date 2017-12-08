@@ -48,19 +48,19 @@ export default class SeriesNetwork extends React.Component {
         <div className="col-md-12 text-center">
           <div className="networkInfo">
             <div className="oneInformation">
-              <div className="elipse">1063</div>
+              <div className="elipse">1064</div>
               <div className="labelInfo">NODES</div>
             </div>
             <div className="oneInformation">
-              <div className="elipse">9006</div>
+              <div className="elipse">9249</div>
               <div className="labelInfo">EDGES</div>
             </div>
             <div className="oneInformation">
-              <div className="elipse">8.47</div>
+              <div className="elipse">8.69</div>
               <div className="labelInfo">AVG IN DEGREE</div>
             </div>
             <div className="oneInformation">
-              <div className="elipse">8.47</div>
+              <div className="elipse">8.69</div>
               <div className="labelInfo">AVG OUT DEGREE</div>
             </div>
             <div className="oneInformation">
@@ -84,6 +84,26 @@ export default class SeriesNetwork extends React.Component {
           <img src="scatterPlotSeries.png" />
         </div>
       </div>
+      <div className="text-center">
+        <h3>Graph showing the communities</h3>
+        <p>The modularity of the communities is 0.52</p>
+        <img src="communitiesSeries.png" className="graph"/>
+        <h3>10 most central characters (based on betweennes centrality):</h3>
+          <ul>
+            <li>Daennerys Targaryen, 0.15</li>
+            <li>John Snow, 0.14</li>
+            <li>Tyrion Lannister, 0.096</li>
+            <li>Arya Stark, 0.06</li>
+            <li>Robb Stark, 0.0599</li>
+            <li>Jaime Lannister, 0.059</li>
+            <li>Stannis Baratheon, 0.054</li>
+            <li>Morag Umber, 0.051</li>
+            <li>Joffrey Baratheon, 0.045</li>
+            <li>Craster, 0.045</li>
+          </ul>
+
+      </div>
+
       </div>
     );
   }

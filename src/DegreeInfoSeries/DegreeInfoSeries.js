@@ -40,7 +40,7 @@ export default class DegreeInfoSeries extends React.Component {
         <ul>
           <li>Tyrion Lannister, 197</li>
           <li>John Snow, 174</li>
-          <li>Daenerys Targaryen, 161</li>
+          <li>Daenerys Targaryen, 160</li>
           <li>Jaime Lannister, 149</li>
           <li>Robb Stark, 148</li>
           <li>Eddard Stark, 138</li>
@@ -53,16 +53,16 @@ export default class DegreeInfoSeries extends React.Component {
 
         <ToggleDisplay className="outDegree degree" show={this.state.showOutDegree}>
         <ul>
+          <li>John Snow, 83</li>
           <li>Tyrion Lannister, 81</li>
-          <li>John Snow, 79</li>
           <li>Arya Stark, 68</li>
           <li>Jaime Lannister, 67</li>
-          <li>Sansa Stark, 65</li>
-          <li>Daenerys Targaryen, 63</li>
+          <li>Sansa Stark, 66</li>
+          <li>Daenerys Targaryen, 65</li>
           <li>Robb Stark, 63</li>
-          <li>Cersei Lannister, 59</li>
-          <li>Eddard Stark, 58</li>
-          <li>Ramsay Bolton, 57</li>
+          <li>Cersei Lannister, 60</li>
+          <li>Eddard Stark, 59</li>
+          <li>Ramsay Bolton, 58</li>
         </ul>
         </ToggleDisplay>
       </div>

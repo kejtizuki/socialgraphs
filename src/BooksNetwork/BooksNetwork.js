@@ -1,7 +1,7 @@
 import React from "react";
 import DegreeInfoBooks from '../DegreeInfoBooks/DegreeInfoBooks';
 import Graph from '../Graph/Graph';
-require ('../Network/network.scss');
+require ('../Network/network.css');
 
 export default class SeriesNetwork extends React.Component {
 
@@ -48,29 +48,30 @@ export default class SeriesNetwork extends React.Component {
         <div className="col-md-12 text-center">
           <div className="networkInfoBooks">
             <div className="oneInformationBooks">
-              <div className="elipseBooks">2842</div>
+              <div className="elipseBooks">2715</div>
               <div className="labelInfo">NODES</div>
             </div>
             <div className="oneInformationBooks">
-              <div className="elipseBooks">7118</div>
+              <div className="elipseBooks">17211</div>
               <div className="labelInfo">EDGES</div>
             </div>
             <div className="oneInformationBooks">
-              <div className="elipseBooks">2.5</div>
+              <div className="elipseBooks">6.34</div>
               <div className="labelInfo">AVG IN DEGREE</div>
             </div>
             <div className="oneInformationBooks">
-              <div className="elipseBooks">2.5</div>
+              <div className="elipseBooks">6.34</div>
               <div className="labelInfo">AVG OUT DEGREE</div>
             </div>
             <div className="oneInformationBooks">
-              <div className="elipseBooks">2.0</div>
+              <div className="elipseBooks">6.0</div>
               <div className="labelInfo">MEDIAN DEGREE</div>
             </div>
           </div>
         </div>
       </div>
       <DegreeInfoBooks />
+
       <div className="basicAnalysis">
         <div className="threeCols">
           <img src="inDegreeBooks.png" />
@@ -83,6 +84,26 @@ export default class SeriesNetwork extends React.Component {
         <div className="threeCols">
           <img src="scatterPlotBooks.png" />
         </div>
+      </div>
+
+      <div className="text-center">
+        <h3>Graph showing the communities</h3>
+        <p>The modularity of the communities is 0.52</p>
+        <img src="communitiesBooks.png" className="graph"/>
+        <h3>10 most central characters (based on betweennes centrality):</h3>
+          <ul>
+            <li>Stannis Baratheon, 0.12</li>
+            <li>Daenerys Targaryen, 0.10</li>
+            <li>Tyrion Lannister, 0.09</li>
+            <li>John Snow, 0.08</li>
+            <li>Jaime Lannister, 0.08</li>
+            <li>Arya Stark, 0.07</li>
+            <li>Robb Stark, 0.06</li>
+            <li>Tywin Lannister, 0.05</li>
+            <li>Cersei Lannister, 0.05</li>
+            <li>Aegon III Targaryen, 0.05</li>
+          </ul>
+
       </div>
       </div>
     );

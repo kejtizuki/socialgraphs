@@ -165,6 +165,7 @@ ul {
   border-radius: 0;
   margin: 0px 5px 0px 5px;
   font-size: 16px;
+  backgorund-color: white;
   &:hover, &:focus {
     outline: 0;
     cursor: pointer;
@@ -207,6 +208,7 @@ ul {
   font-size: 16px;
   width: 200px;
   margin: 0px 10px 0px 10px;
+  background-color: white;
   &:focus, &:active {
     outline: 0 !important;
   }
@@ -220,6 +222,7 @@ ul {
   font-size: 16px;
   width: 200px;
   margin: 0px 10px 0px 10px;
+  background-color: white;
   &:focus, &:active {
     outline: 0 !important;
   }
@@ -233,6 +236,7 @@ ul {
   font-size: 16px;
   width: 300px;
   margin: 0px 10px 0px 10px;
+  background-color: white;
 }
 
 .btnLongBooks {
@@ -243,6 +247,7 @@ ul {
   font-size: 16px;
   width: 300px;
   margin: 0px 10px 0px 10px;
+  background-color: white;
 }
 
 .hvr-fade {

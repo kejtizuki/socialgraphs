@@ -13,6 +13,8 @@ export default class Notebooks extends React.Component {
             <a href="http://nbviewer.jupyter.org/github/mkoliba/SocGraphGOT/blob/master/WesterousWiki.ipynb">Westerous Wiki network analysis (books)</a>
             <br />
             <a href="http://nbviewer.jupyter.org/github/mkoliba/SocGraphGOT/blob/master/Sentiment.ipynb">Sentiment analysis</a>
+            <br />
+            <a href="http://nbviewer.jupyter.org/github/mkoliba/SocGraphGOT/blob/master/explainer_notebook.ipynb">Explanatory notebook</a>
           </div>
 
       </div>

@@ -125,8 +125,7 @@ ul {
   padding: 12px;
   border-radius: 0;
   margin: 0px 5px 0px 5px;
-  font-size: 16px;
-  backgorund-color: white; }
+  font-size: 16px; }
   .tabLinkSeries:hover, .tabLinkSeries:focus {
     outline: 0;
     cursor: pointer; }
@@ -138,8 +137,7 @@ ul {
   padding: 12px;
   border-radius: 0;
   margin: 0px 5px 0px 5px;
-  font-size: 16px;
-  backgorund-color: white; }
+  font-size: 16px; }
   .tabLinkBooks:hover, .tabLinkBooks:focus {
     outline: 0;
     cursor: pointer; }
@@ -164,8 +162,7 @@ ul {
   border: 1px solid #099499;
   font-size: 16px;
   width: 200px;
-  margin: 0px 10px 0px 10px;
-  background-color: white; }
+  margin: 0px 10px 0px 10px; }
   .btn:focus, .btn:active {
     outline: 0 !important; }
 
@@ -176,8 +173,7 @@ ul {
   border: 1px solid #c1bf38;
   font-size: 16px;
   width: 200px;
-  margin: 0px 10px 0px 10px;
-  background-color: white; }
+  margin: 0px 10px 0px 10px; }
   .btnBooks:focus, .btnBooks:active {
     outline: 0 !important; }
 
@@ -188,8 +184,7 @@ ul {
   border: 1px solid #099499;
   font-size: 16px;
   width: 300px;
-  margin: 0px 10px 0px 10px;
-  background-color: white; }
+  margin: 0px 10px 0px 10px; }
 
 .btnLongBooks {
   border-radius: 30px;
@@ -198,8 +193,7 @@ ul {
   border: 1px solid #c1bf38;
   font-size: 16px;
   width: 300px;
-  margin: 0px 10px 0px 10px;
-  background-color: white; }
+  margin: 0px 10px 0px 10px; }
 
 .hvr-fade {
   position: relative;
